@@ -78,6 +78,21 @@ main {
   row-gap:120px;
 }
 
+.none {
+  display:none;
+}
+
+.changepic:hover .hoverme {
+  display:none;
+}
+
+.changepic:hover .none {
+  display: inline-block;
+}
+
+
+
+
 .display-clothes {
   height:600px;
   flex-basis:32%;
