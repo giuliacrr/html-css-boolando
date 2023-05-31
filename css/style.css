@@ -166,11 +166,28 @@ footer {
   display:flex;
   justify-content: space-between;
   margin:auto;
-  padding:30px;
+  padding:30px 0px;
 }
 
 .color {
   color:white;
 }
 
-.info
+.info {
+  display:flex;
+  padding-top:10px;
+}
+
+.info .color {
+  font-size:.8rem;
+  padding-right:10px;
+}
+
+.socialico {
+  padding-left:5px;
+  padding-top:5px;
+}
+
+.sizeicons {
+  width:20px;
+}
