@@ -9,6 +9,10 @@
 
 header {
   background-color: #ff6900;
+  position:fixed;
+  width:100%;
+  top:0;
+  z-index:2;
 }
 
 .nav-cont {
@@ -63,7 +67,8 @@ li > a {
 main {
   max-width:1300px;
   margin:auto;
-  margin-top:50px;
+  margin-top:100px;
+  margin-bottom:100px;
 }
 
 .displays {
@@ -76,6 +81,7 @@ main {
 .display-clothes {
   height:600px;
   flex-basis:32%;
+  position: relative;
 }
 
 .display-clothes img {
@@ -84,4 +90,87 @@ main {
   object-fit: cover;
 }
 
-/*Brand - */
+/*Brand, Name & Price*/
+.brand {
+  font-size: .8rem;
+}
+
+.item-name {
+  text-transform: uppercase;
+}
+
+strong {
+  color:red;
+}
+
+span {
+  text-decoration: line-through;
+}
+
+/*tags*/
+.bottom-overlay {
+  position:absolute;
+  bottom: 40px;
+  left: 0px;
+  width: 100%;
+}
+
+.top-overlay {
+  position:absolute;
+  top:20px;
+  left:381px;
+  width: 100%;
+}
+
+.discount {
+  background-color: red;
+  font-size: .8rem;
+  padding:.3rem;
+  color:white;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.sus {
+  background-color: green;
+  font-size: .8rem;
+  padding:.3rem;
+  color:white;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.fav {
+  background-color: white;
+  font-size: 2rem;
+  padding: 1px 10px;
+  color:black;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.fav:hover {
+  color: #ff6900;
+  cursor: pointer;
+}
+
+/*--------------------------------------------FOOTER--------------------------------------------*/
+
+footer {
+  background-color: #1a1a1a;
+  max-height:300px;
+}
+
+.csf {
+  max-width:1300px;
+  display:flex;
+  justify-content: space-between;
+  margin:auto;
+  padding:30px;
+}
+
+.color {
+  color:white;
+}
+
+.info
