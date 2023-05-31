@@ -6,7 +6,6 @@
 }
 
 /*--------------------------------------------HEADER--------------------------------------------*/
-
 header {
   background-color: #ff6900;
   position:fixed;
@@ -63,7 +62,6 @@ li > a {
 }
 
 /*--------------------------------------------MAIN--------------------------------------------*/
-
 main {
   max-width:1300px;
   margin:auto;
@@ -89,9 +87,6 @@ main {
 .changepic:hover .none {
   display: inline-block;
 }
-
-
-
 
 .display-clothes {
   height:600px;
@@ -142,8 +137,6 @@ span {
   font-size: .8rem;
   padding:.3rem;
   color:white;
-  font-weight: bold;
-  display: inline-block;
 }
 
 .sus {
@@ -151,8 +144,6 @@ span {
   font-size: .8rem;
   padding:.3rem;
   color:white;
-  font-weight: bold;
-  display: inline-block;
 }
 
 .fav {
@@ -160,6 +151,11 @@ span {
   font-size: 2rem;
   padding: 1px 10px;
   color:black;
+}
+
+.fav,
+.sus,
+.discount {
   font-weight: bold;
   display: inline-block;
 }
@@ -170,7 +166,6 @@ span {
 }
 
 /*--------------------------------------------FOOTER--------------------------------------------*/
-
 footer {
   background-color: #1a1a1a;
   max-height:300px;
